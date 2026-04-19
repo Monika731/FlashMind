@@ -70,7 +70,7 @@ npm run dev
 
 - **Frontend**: React 18 + Vite + Tailwind CSS
 - **Backend**: Node.js + Express
-- **AI**: Anthropic Claude API (`claude-opus-4-5`)
+- **AI**: Groq + Llama 3.3
 - **Database**: MongoDB + Mongoose
 - **PDF**: pdf-parse
 - **Algorithm**: SM-2 Spaced Repetition
@@ -95,9 +95,7 @@ flashcard-app/
 │       └── srs.js              # SM-2 algorithm
 ```
 
-## Hackathon Tips
+## Tips
 
 - The app works without MongoDB (cards won't persist between sessions)
 - For the demo, use the quick-topic buttons on the home screen
-- AI generation takes ~5-10 seconds — the loading messages keep it engaging
-- Judges love the flip animation + the spaced repetition explanation
