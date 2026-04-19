@@ -21,10 +21,8 @@ cd client && npm install && cd ..
 
 ```bash
 cp server/.env.example server/.env
-# Open server/.env and add your Anthropic API key
+# Open server/.env and add your Groq API key
 ```
-
-Get a free API key at: https://console.anthropic.com
 
 ### 3. Start MongoDB (optional — app works without it)
 
